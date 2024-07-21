@@ -38,8 +38,9 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # ч/б оттенки
 img = cv2.Canny(img, 100, 100) # бинарная (ч/б - 1,0)
 img = cv2.dilate(img, kernel, iterations=1) # ширина точек (обводка)
 
+
 img = cv2.erode(img, kernel, iterations=1)
 
-cv2.imshow('KARTINKA', img)
 
+cv2.imshow('KARTINKA', img)
 cv2.waitKey(0)

@@ -19,5 +19,4 @@ cv2.drawContours(new_img, con, -1, (50, 50, 160), 1)
 
 
 cv2.imshow('Result' , new_img)
-
 cv2.waitKey(0)

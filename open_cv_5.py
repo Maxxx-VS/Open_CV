@@ -23,5 +23,4 @@ img = transform(img, 30, 200)
 
 
 cv2.imshow('Result' , img)
-
 cv2.waitKey(0)
