@@ -15,3 +15,4 @@ img = cv2.merge([b, g, r])
 
 cv2.imshow('Result' ,img)
 cv2.waitKey(0)
+
