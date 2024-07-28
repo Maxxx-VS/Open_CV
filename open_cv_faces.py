@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("images/faces3.jpg")
+img = cv2.imread("images/faces/faces3.jpg")
 img = cv2.resize(img, (img.shape[1] // 2, img.shape[0] // 2))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
